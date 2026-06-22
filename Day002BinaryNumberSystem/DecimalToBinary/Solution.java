@@ -6,7 +6,7 @@ public class Solution{
         int x;
         System.out.println("Enter any to convert into Binary number");
         x=sc.nextInt();
-        int ans=0, mul=1;
+        double ans=0, mul=1;
         while(x>=1)
         {
             int curr=x%2;
